@@ -209,38 +209,37 @@ body.noscroll {
       position: absolute;
       top: 50%;
       right: 0;
-      transform: translate(-60%, -70%);
+      transform: translate(-10%, -50%);
       color: #ffffff;
-      @include tablet {
-        top: 50%;
-        right: 0;
-        transform: translate(-25%, -75%);
-      }
-      // @include sp {
-      //   top: 50%;
-      //   right: 0;
-      //   transform: translate(70%, -75%);
-      // };
       .copy-ja {
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 3vw;
         @include tablet {
-          font-size: 1.6rem;
+          font-size: 4vw;
+        }
+        @include sp {
+          font-size: 5vw;
         }
       }
       .copy-en {
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 3vw;
         margin-bottom: 10px;
         @include tablet {
-          font-size: 1.6rem;
+          font-size: 4vw;
+        }
+        @include sp {
+          font-size: 5vw;
         }
       }
       .main-copy {
         font-weight: bold;
-        font-size: 7.2rem;
+        font-size: 5vw;
         @include tablet {
-          font-size: 5.6rem;
+          font-size: 6vw;
+        }
+        @include sp {
+          font-size: 7vw;
         }
       }
     }
